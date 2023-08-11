@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chunxia - shop</title>
+    <!-- style sheets-->
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+
+<body>
+    <header class="flex">
+        <div class="flex fixed-width">
+            <div>
+                <a href="../index.html">
+                    <img src="../images/chunxia.png" alt="chunxia huang">
+                </a>
+            </div>
+            <div class="flex nav">
+                <a class="nav" id="shop" href="shop.html">Shop</a>
+                <a class="nav" id="about" href="about.html">About</a>
+                <a class="nav" id="contact" href="contact.html">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="shop" id="shop-page">
+        <h2>Shop My Products</h2>
+        <p>the pictures below all created by <a href="https://gencraft.com/">gencraft</a>.</p>
+        <ul class="flex products">
+            <li class="product">
+                <a href="https://gencraft.com/">
+                    <img src="../images/handmade1.png" alt="a canvas bag on a wooden table.">
+                </a>
+                <p class="price">$29.70</p>
+                <div class="small-button" id="pic1">Add to Cart</div>
+            </li>
+            <li class="product">
+                <a href="https://gencraft.com/">
+                    <img src="../images/handmade2.png" alt="a canvas bag with colorful circular decorations on the background">
+                </a>
+                <p class="price">$27.80</p>
+                <div class="small-button" id="pic2">Add to Cart</div>
+            </li>
+            <li class="product">
+                <a href="https://gencraft.com/">
+                    <img src="../images/handmade3.png" alt="a canvas bag on a light brown background">
+                </a>
+                <p class="price">$32.50</p>
+                <div class="small-button" id="pic3">Add to Cart</div>
+            </li>
+
+        </ul>
+        <p class="large-text">The total cost will be <span id="cost-color">$<span id="calculated-cost">0</span></span>.</p>
+        <p class="fake-button" id="clear-button">Clear Items</p>
+    </main>
+
+    <footer>
+        <div>
+            <p>Made for Web development: Lab 5</p>
+            <a href="../index.html">Logo created by Chunxia Huang</a>
+        </div>
+    </footer>
+    <script src="../scripts/shop.js"></script>
+</body>
+
+</html>
